@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 export async function getCategories() {
   const posts = await getCollection("blog");
   const categories = [
-    ...new Set(posts.map((post) => post.data.category).flat()),
+    ...new Set(posts.map((post: { data: { category: any; }; }) => post.data.category).flat()),
   ];
 
   return categories;
@@ -11,7 +11,7 @@ export async function getCategories() {
 
 export async function getPosts() {
   const posts = (await getCollection("blog")).sort(
-    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+    (a: { data: { pubDate: Date; }; }, b: { data: { pubDate: Date; }; }) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
   );
 
   return posts;
@@ -19,16 +19,17 @@ export async function getPosts() {
 
 export async function getPostsByCategory(category: string) {
   const posts = (await getCollection("blog"))
-    .filter((post) => post.data.category.includes(category))
-    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+    .filter((post: { data: { category: string | string[]; }; } ) => post.data.category.includes(category))
+    .sort((a: { data: { pubDate: Date; }; }, b: { data: { pubDate: Date; }; }) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
   return posts;
 }
 
 export async function getGuides() {
   const guides = (await getCollection("guides"))
-    .filter((guide) => guide.data.published)
-    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+    .filter((guide: { data: { published: any; }; }) => guide.data.published)
+    .sort((a: { data: { pubDate: Date; }; }, b: { data: { pubDate: Date; }; }) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
   return guides;
 }
+
